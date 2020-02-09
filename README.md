@@ -35,10 +35,10 @@ npm start;
 
 ## Built With
 
-Java
-JavaScript
-React
-PSQL
+* Java(https://docs.oracle.com/javase/7/docs/api/)
+* JavaScript(https://www.javascript.com/)
+* Reac(thttps://reactjs.org/)
+* PSQL(https://www.postgresql.org/docs/9.3/app-psql.html)
 
 ## License
 
