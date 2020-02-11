@@ -2,9 +2,9 @@
 
 This project is a Restaurant Booking system which built to help staff 
 to manage their booking. The application built with a Java back-end, running
-PSQL database and uses JavaScript/React for the fron-end with bootstrap styling
+PSQL database and uses JavaScript/React for the front-end with bootstrap styling
 and react-chart-js for displaying charts. The app features creating new customers, 
-createing bookings with either existing or new customers, a chart to display total
+creating bookings with either existing or new customers, a chart to display total
 covers for every hour to help the staff being able to prepare for busier periods
 and a show page for bookings where bookings details can be edited or bookings 
 can be deleted.
