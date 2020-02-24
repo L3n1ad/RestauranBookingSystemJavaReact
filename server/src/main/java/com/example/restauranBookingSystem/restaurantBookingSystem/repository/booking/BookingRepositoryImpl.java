@@ -15,17 +15,6 @@ public class BookingRepositoryImpl implements BookingRepositoryCustom{
 
     @Autowired
     EntityManager entityManager;
-//
-//    @Transactional
-//    public List<Distillery> findDistilleryThatHaveWhiskiesAge12(){
-//        List<Distillery> result = null;
-//        Session session = entityManager.unwrap(Session.class);
-//        Criteria criteria = session.createCriteria(Distillery.class);
-//        criteria.createAlias("whiskies", "whisky");
-//        criteria.add(Restrictions.eq("whisky.age", 12));
-//        result = criteria.list();
-//        return result;
-//    }
 
     @Transactional
     public List<Booking> findBookingsByDate(Date date){
